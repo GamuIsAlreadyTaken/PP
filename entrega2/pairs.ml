@@ -9,4 +9,3 @@ let rec steps_from p n =
   else steps_from (next p) (n-1);;
 
 let pair n = steps_from (1,1) n;;
-let pait' n = 
